@@ -1,0 +1,261 @@
+
+
+
+/* .container-fluid{
+
+    margin: 3% 15%;
+} */
+
+
+body{
+
+  text-align: center;
+}
+
+/* Containers */
+
+.container-fluid{
+
+    padding:3% 15%;
+   
+
+}
+
+/* Sections */
+
+.color-section{
+  background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section{
+  background-color:#fff;
+
+}
+
+
+
+/* #title{
+
+    background-color: #ff4c68;
+    color: #fff;
+    
+
+} */
+
+body{
+
+    font-family:'Montserrat-black', sans-serif;
+}
+
+
+
+
+/* navbar-brand */
+.navbar{
+
+    padding-bottom: 4rem;
+}
+
+.navbar-brand{
+
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    margin-top: 2rem;
+
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+  .nav-item{
+    padding: 0 18px;
+
+  }
+
+  
+  .nav-link{
+    font-size: 1.2rem;
+    font-family:'Montserrat-light';
+    
+  }
+
+
+  .boutton-download{
+
+    margin: 5% 3% 10% 0;
+  }
+
+
+  /* title */
+
+
+#title .container-fluid{
+
+  padding-bottom: 3%;
+  text-align: left;
+
+}
+
+
+  /* title image  */
+
+  .title-image {
+    transform:rotate(20deg);
+    width: 20%;
+    position: absolute;
+    
+    
+
+  }
+
+
+
+  @media (max-width:1028px){
+
+    .title-image {
+      width: 60%;
+      transform:rotate(0deg);
+
+      position: static;
+
+    }
+
+    #features{
+      padding: 2% 15%;
+      background-color:#fff;
+      position:static;
+      
+    
+    }
+
+    h1{
+
+     
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+
+  }
+
+
+
+
+  /* feature  */
+
+
+
+#features{
+  padding: 2% 15%;
+  position: relative;
+  
+
+}
+
+
+
+  .feature-position{
+
+
+    padding: 6rem;
+
+  }
+
+  .clear-left{
+
+    display: block;
+  }
+
+  .icon-property{
+
+    color: #ef8172;
+    margin-bottom: 1rem;
+  }
+
+  .icon-property:hover{
+
+    color: #ff4c68;
+  }
+
+  .feature-h3{
+    font-family: 'Montserrat-bold';
+  }
+
+  .feature-p{
+    color: #818181 ;
+  }
+
+/* testimonials section  */
+
+
+#testimonials{
+
+
+  background-color: #ef8172;
+ 
+
+ 
+}
+
+
+
+
+h2{
+
+  font-family:" Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+margin:20px;
+}
+
+#press{
+background-color:#ef8172;
+
+padding-bottom: 3%;
+  
+}
+
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+
+/* pricing */
+
+#pricing{
+
+  padding: 100px;
+
+
+}
+
+
+/* footer*/
+
+
+ 
+
+
+ .social-media{
+
+  margin: 1rem;
+}
+
+.cta-heading{
+
+  font-family:'Montserrat-black';
+  font-size: 3.5rem;
+  
+}
+
